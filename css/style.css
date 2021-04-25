@@ -1,0 +1,50 @@
+body{
+    background: url(../img/bg.jpg);
+}
+.container{
+    background-image: linear-gradient(to right,red, yellow);
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 1rem;
+    padding: 50px 30px;
+}
+::placeholder{
+    text-align: center;
+}
+:-ms-input-placeholder{
+    text-align: center;
+}
+::-ms-input-placeholder{
+    text-align: center;
+}
+.dropdown-item{
+    text-align: center;
+}
+.heading{
+    font-family: 'Alex Brush', cursive;
+    font-weight: 600;
+}
+.percentage{
+    font-size: 6rem;
+    color: rgb(246, 0, 41);
+}
+.message{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 700;
+}
+select{
+    width: 100%;
+    cursor: pointer;
+}
+select > option{
+    text-align: center;
+}
+.d-none{
+    display: none;
+}
+.submit{
+    cursor: pointer;
+}
